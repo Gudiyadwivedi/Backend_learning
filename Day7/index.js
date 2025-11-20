@@ -35,19 +35,6 @@ app.put('/info',async(req,res)=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 main()
 .then(async ()=>{console.log("connected to db")
 app.listen(6500,()=>{
