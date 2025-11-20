@@ -14,8 +14,7 @@ const userSchema = new Schema({
    age:{
     type:Number,
     min:14,
-    max:70,
-    required:true
+    max:70
    },
    gender:{
     type:String,
@@ -34,8 +33,7 @@ const userSchema = new Schema({
     
    },
    password:{
-    type:String,
-    required:true
+    type:String
    },
    photo:{
     type:String,
